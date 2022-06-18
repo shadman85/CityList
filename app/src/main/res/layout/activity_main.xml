@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/mainId"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -51,7 +53,7 @@
             android:ems="10"
             android:hint="City Name"
             android:inputType="textCapWords"
-            android:textColor="#000000" />
+            android:textColor="#EDE9E9" />
 
         <Button
             android:id="@+id/button_confirm"
